@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="main.js"></script>
+        <title>Emotions on our face</title>
+    </head>
+    <body>
+        <h1>Emotions on our face Web app</h1><br>
+        <h5>Model is trained to identify the following objects:</h5>
+        <center>
+            <h6>happy</h6>
+            <hr>
+            <h6>sad</h6>
+            <hr>
+            <h6>confusing</h6>
+            <hr>
+            <h6>angry</h6>
+            <hr>
+        </center>
+    <label>Webcam View-</label>
+    <div id="camera"></div>
+    <br><br>
+    1<div id="result"></div>
+    <br><br>
+    <button onclick="take_snapshot();" class="btn btn-info">CAPTURE IMAGE</button><BR><BR>
+        <button onclick="check();" class="btn btn-success">IDENTIFY IMAGE</button><BR><BR>
+    </body>
+</html>
